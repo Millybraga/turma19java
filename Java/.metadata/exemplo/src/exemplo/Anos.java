@@ -11,24 +11,32 @@ public class Anos {
 
 		   int ano, mes, dia;
 		   int diasAtuais;
-		   int diasVida;
+		   String nome;
+		   
 		   
 		   Scanner leia = new Scanner (System.in);
 
-		   System.out.println("Em qual dia você nasceu? ");
+		   
+		   System.out.print("Leia nome: ");
+		   nome = leia.next();
+		   
+		   System.out.println("Dias :") ;
 		   dia = leia.nextInt();
 		   
-		   System.out.println("Em qual mes você nasceu? " );
+		   System.out.println("Meses :" );
 		   mes = leia.nextInt();
 
-		   System.out.println("Qual o ano do seu nascimento? ");
+		   System.out.println("Anos: ");
 	       ano = leia.nextInt();
 	       
 
-	        diasAtuais = (( mes*12*30)+(dia*30)+ ano);
-	        diasVida = ((ano*12*30)+(mes*30)+dia);
+	        //diasAtuais = ((diasVida*12*30)+(dia*30)+ ano);
+	        diasAtuais = (ano*365)+(mes*30)+dia ;
 	        
-	        System.out.println("oi, você viveu "+ (diasAtuais-diasVida) + " dias");
+	        
+	        
+	        System.out.printf("Oi %s, vc digitou anos: %d, meses: %d e dias: %d, ou seja %d dias na terra!!",nome,ano,mes,dia,diasAtuais);
+	        
 	        
 
 
