@@ -37,7 +37,8 @@ public class Anos {
 	        
 	        System.out.printf("Oi %s, vc digitou anos: %d, meses: %d e dias: %d, ou seja %d dias na terra!!",nome,ano,mes,dia,diasAtuais);
 	        
-	        
+	        // %s = é o String, pra aparecer na tela: igual fazíamos no portugol fechando parenteses e escrevendo a variável. 
+	        //%d = o d siginifica que é pra ler inteiro e no fim tem que escrever a ordem que quer que apareça o valor das variaveis
 
 
 		
