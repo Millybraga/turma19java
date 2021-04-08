@@ -18,5 +18,6 @@ public class desafio2 {
 		System.out.println("O valor de B, agora é: "+a);
 
 	}
+	
 
 }
