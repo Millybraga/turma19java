@@ -19,3 +19,4 @@ public class Preguica extends Animal{
 	
 
 }
+//fim
