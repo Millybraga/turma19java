@@ -49,6 +49,8 @@ public class CadUsuario {
 		
 		System.out.println();
 		System.out.println("FOLHA DE PAGAMENTOS");
+		
+		//FOR EACH
 		for (Funcionario func: lista) {
 			System.out.println(func.getNome()+" Salario R$" + func.valorSalario());
 		}

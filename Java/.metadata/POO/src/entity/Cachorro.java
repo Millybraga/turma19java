@@ -18,6 +18,11 @@ public class Cachorro extends Animal {
 		this.corre = correr;
 	}
 
+	@Override
+	
+	public String Som() {
+		return "Emiti o som: "+getEmitiSom();
+	}
 	
 	//finish
 	

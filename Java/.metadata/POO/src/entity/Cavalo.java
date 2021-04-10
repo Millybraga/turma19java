@@ -18,7 +18,16 @@ public class Cavalo extends Animal {
 		this.correr = correr;
 	}
 
-		}
+	@Override
+	
+	public String Som() {
+		return "Emiti o som: "+getEmitiSom();
+	}
+	
+}
+
+
+
 	
 	//fim
 	

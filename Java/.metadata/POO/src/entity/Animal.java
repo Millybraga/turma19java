@@ -39,6 +39,11 @@ public class Animal {
 		this.emitiSom = emitiSom;
 	}
 
+	public String Som() {
+		return "Emiti o som: ";
+	}
+	
+	
 	//fim
 	
 

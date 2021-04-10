@@ -16,6 +16,11 @@ public class Preguica extends Animal{
 	public void setSobeArvores(String sobeArvores) {
 		this.sobeArvores = sobeArvores;
 	}
+	@Override
+	
+	public String Som() {
+		return "Emiti o som: "+getEmitiSom();
+	}
 	
 
 }
